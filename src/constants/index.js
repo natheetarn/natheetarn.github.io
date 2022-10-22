@@ -1,10 +1,11 @@
-import csm from "../assets/csm.jpg"
+// import csm from "../assets/csm.jpg"
 // import sun from "../assets/sun.png"
 // import pathdfinder_vid from "../assets/pathfinder-vid.mp4"
 // import xo_ai_vid from "../assets/xo-ai-vid.webm"
 import pathfinder_example from "../assets/pathfinder-example.jpg"
 import xo_ai_example from "../assets/xo-ai-example.jpg"
 import dot_example from "../assets/DOT-example.jpg"
+import secondi from "../assets/secondi.jpg"
 import C_icon from "../assets/C-icon.png"
 import Cpp_icon from "../assets/C++-icon.png"
 import HTML_icon from "../assets/HTML-icon.png"
@@ -24,26 +25,30 @@ export const projects = [
     {
         id: 'project0',
         title: 'Pathfinding Algorithm Visualizer',
+        link: 'https://github.com/natheetarn/Pathfinding-Tk',
         poster: pathfinder_example,
         desc: 'Python Tkinter program that demonstrates how each pathfinding algorithm works, letting the user select the start, end, obstacles and generate maze ',
     },
     {
         id: 'project1',
         title: 'Secondi',
-        poster: csm,
+        link : "https://github.com/natheetarn/DOT-Generator",
+        poster: secondi,
         desc: 'Mobile e-commerce application using flutter',
     },
     {
         id: 'project2',
         title: 'DOT Generator',
+        link : "https://github.com/natheetarn/DOT-Generator",
         poster: dot_example,
-        desc: 'Termimal program for generating DOT format graphs from the user input',
+        desc: 'Termimal program for generating DOT format graphs from the user input using C language',
     },
     {
         id: 'project3',
         title: 'TicTacToe with unbeatable AI',
+        link : "https://github.com/natheetarn/cs50ai/tree/main/Week%200/tictactoe",
         poster: xo_ai_example,
-        desc: 'A TicTacToe game made with python and pygame, with an AI that uses adversarial search to find the best move every time\n(made during the CS50AI course from EdX)',
+        desc: 'A TicTacToe game made with python and pygame, with an AI that uses adversarial search to find the best move every time',
     },
     // {
     //     id: 'project4',

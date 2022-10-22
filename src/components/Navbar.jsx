@@ -59,17 +59,17 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-3xl">
-          <Link to="home" smooth duration={500} onClick={handleClick}>
+          <Link to="home" smooth duration={500} offset={-100} onClick={handleClick}>
             Home
           </Link>
         </li>
         <li className="py-6 text-3xl">
-          <Link to="about" smooth duration={500} onClick={handleClick}>
+          <Link to="about" smooth duration={500} offset={-100} onClick={handleClick}>
             About
           </Link>
         </li>
         <li className="py-6 text-3xl">
-          <Link to="skills" smooth duration={500} onClick={handleClick}>
+          <Link to="skills" smooth duration={500} offset={-100} onClick={handleClick}>
             Skills
           </Link>
         </li>
@@ -116,7 +116,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#111111]">
             <a
               className="flex justify-between items-center w-full text-[#EEEEEE]"
-              href="/"
+              href="mailto:natheetarn@gmail.com"
             >
               e-mail <HiOutlineMail size={30} />
             </a>
