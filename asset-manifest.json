@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.412616c7.css",
+    "main.js": "/static/js/main.aaf103ad.js",
+    "static/media/secondi.jpg": "/static/media/secondi.a78d3698da1c07ec3d39.jpg",
+    "static/media/csm.jpg": "/static/media/csm.b75ae021326be06aee8d.jpg",
+    "static/media/pathfinder-example.jpg": "/static/media/pathfinder-example.6afb88d614806995e6c1.jpg",
+    "static/media/React-icon.svg.png": "/static/media/React-icon.svg.81ed438b18e24116794d.png",
+    "static/media/DOT-example.jpg": "/static/media/DOT-example.a4a72f1fc11f165fc6ea.jpg",
+    "static/media/C++-icon.png": "/static/media/C++-icon.64f637357bce0ccc8384.png",
+    "static/media/google-app-icon.png": "/static/media/google-app-icon.1506a20437a5f87ef0e4.png",
+    "static/media/HTML-icon.png": "/static/media/HTML-icon.5f77e90e11607bf9b3e1.png",
+    "static/media/Flutter-icon.png": "/static/media/Flutter-icon.294a953425109a8f1aad.png",
+    "static/media/Tailwind-icon.png": "/static/media/Tailwind-icon.9c2e5bcf4f97d73e438e.png",
+    "static/media/CSS-icon.png": "/static/media/CSS-icon.8a182087615a3845ebac.png",
+    "static/media/C-icon.png": "/static/media/C-icon.bf0af88d24cd724c83bc.png",
+    "static/media/xo-ai-example.jpg": "/static/media/xo-ai-example.7dd9d0073619bb1d3971.jpg",
+    "static/media/line-bot-icon.png": "/static/media/line-bot-icon.435ef2534b3a88504154.png",
+    "static/media/Python-icon.png": "/static/media/Python-icon.82ab0bdb7e21c02fbe36.png",
+    "static/media/Java-icon.png": "/static/media/Java-icon.f5dd86c3ef6ef3f85acf.png",
+    "static/media/JS-icon.png": "/static/media/JS-icon.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.412616c7.css.map": "/static/css/main.412616c7.css.map",
+    "main.aaf103ad.js.map": "/static/js/main.aaf103ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412616c7.css",
+    "static/js/main.aaf103ad.js"
+  ]
+}
