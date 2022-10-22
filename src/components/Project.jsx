@@ -5,7 +5,7 @@ const Project = (props) => {
     <div className='w-full h-[50%] bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col sm:flex-row rounded-md'>
       <a href="https://github.com/natheetarn" target={'_blank'} rel='noreferrer'>
       <img src={props.poster} alt = 'white pic' className='h-full w-auto md:max-w-[450px] rounded-md mx-auto sm:mx-4 my-auto sm:my-4 
-      grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
+      sm:grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
       </img>
       </a>
       <div className='px-4 py-4'>
@@ -23,7 +23,7 @@ const Project = (props) => {
     <div className='w-full h-[50%] bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col sm:flex-row-reverse rounded-md'>
       <a href="https://github.com/natheetarn" target={'_blank'} rel='noreferrer'>
       <img src={props.poster} alt = 'white pic' className='h-full w-auto md:max-w-[450px] rounded-md mx-auto sm:mx-4 my-auto sm:my-4 
-      grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
+      sm:grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
       </img>
       </a>
       <div className='px-4 py-4'>

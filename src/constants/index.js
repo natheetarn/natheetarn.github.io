@@ -1,5 +1,10 @@
 import csm from "../assets/csm.jpg"
 // import sun from "../assets/sun.png"
+// import pathdfinder_vid from "../assets/pathfinder-vid.mp4"
+// import xo_ai_vid from "../assets/xo-ai-vid.webm"
+import pathfinder_example from "../assets/pathfinder-example.jpg"
+import xo_ai_example from "../assets/xo-ai-example.jpg"
+import dot_example from "../assets/DOT-example.jpg"
 import C_icon from "../assets/C-icon.png"
 import Cpp_icon from "../assets/C++-icon.png"
 import HTML_icon from "../assets/HTML-icon.png"
@@ -19,9 +24,8 @@ export const projects = [
     {
         id: 'project0',
         title: 'Pathfinding Algorithm Visualizer',
-        poster: csm,
-        desc: 'A program developed in python',
-        stack: ['Python', 'Tkinter'],
+        poster: pathfinder_example,
+        desc: 'Python Tkinter program that demonstrates how each pathfinding algorithm works, letting the user select the start, end, obstacles and generate maze ',
     },
     {
         id: 'project1',
@@ -32,21 +36,21 @@ export const projects = [
     {
         id: 'project2',
         title: 'DOT Generator',
-        poster: csm,
-        desc: 'Termimal program for generating DOT format graphs from the user input'
+        poster: dot_example,
+        desc: 'Termimal program for generating DOT format graphs from the user input',
     },
     {
         id: 'project3',
         title: 'TicTacToe with unbeatable AI',
-        poster: csm,
-        desc: 'A TicTacToe game made with python and pygame, with an AI that uses adversary search to find the best move every time\n(made during the CS50AI course from EdX)'
+        poster: xo_ai_example,
+        desc: 'A TicTacToe game made with python and pygame, with an AI that uses adversarial search to find the best move every time\n(made during the CS50AI course from EdX)',
     },
-    {
-        id: 'project4',
-        title: 'TicTacToe with Timeskip',
-        poster: csm,
-        desc: 'Another TicTacToe game made with react, made for learning about using states and lifting states. Includes an undo feature that let you moves to past moves'
-    }
+    // {
+    //     id: 'project4',
+    //     title: 'TicTacToe with Timeskip',
+    //     poster: csm,
+    //     desc: 'Another TicTacToe game made with react, made for learning about using states and lifting states. Includes an undo feature that let you moves to past moves',
+    // }
 
 ]
 
