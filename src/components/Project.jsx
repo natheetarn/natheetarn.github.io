@@ -2,9 +2,9 @@ import React from 'react'
 const Project = (props) => {
   if (props.index %2 === 0){
   return (
-    <div className='w-full h-[50%] bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col sm:flex-row rounded-md'>
+    <div className='w-full h-auto bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col md:flex-row rounded-md'>
       <a href={props.link} target={'_blank'} rel='noreferrer'>
-      <img src={props.poster} alt = 'white pic' className='h-full w-auto md:max-w-[450px] rounded-md mx-auto sm:mx-4 my-auto sm:my-4 
+      <img src={props.poster} alt = 'white pic' className='h-auto md:max-w-[450px] rounded-md mx-auto  my-auto  
       sm:grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
       </img>
       </a>
@@ -20,9 +20,9 @@ const Project = (props) => {
   )
   }
   return (
-    <div className='w-full h-[50%] bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col sm:flex-row-reverse rounded-md'>
+    <div className='w-full h-auto bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] flex flex-col md:flex-row-reverse rounded-md'>
       <a href={props.link} target={'_blank'} rel='noreferrer'>
-      <img src={props.poster} alt = 'white pic' className='h-full w-auto md:max-w-[450px] rounded-md mx-auto sm:mx-4 my-auto sm:my-4 
+      <img src={props.poster} alt = 'white pic' className='h-auto md:max-w-[450px] rounded-md mx-auto  my-auto 
       sm:grayscale hover:grayscale-0 tansition duration-500 cursor-pointer '>
       </img>
       </a>

@@ -7,29 +7,36 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#111111] text-gray-300 z-20">
-      <div className="text-[#FFD369]">logo</div>
+      <div>
+      <Link to="home" smooth duration={500} className="cursor-pointer font-extrabold text-transparent  bg-clip-text bg-gradient-to-r hover:from-[#00C9FF] from-gray-300 to-gray-300 hover:to-[#92FE9D]">
+      Natheetarn P
+            </Link></div>
       <div>
         <ul className="hidden md:flex">
           <li>
-            <Link to="home" smooth duration={500}>
+            <Link to="home" smooth duration={500} className="font-bold text-transparent
+            transition-all ease-in duration-500  
+            bg-clip-text bg-gradient-to-r hover:from-[#00C9FF] 
+            from-gray-300 to-gray-300 hover:to-[#92FE9D] "
+            >
               Home
             </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link to="about" smooth duration={500} offset={-100}>
+            <Link to="about" smooth duration={500} offset={-100} className = "font-bold text-transparent  bg-clip-text bg-gradient-to-r hover:from-[#00C9FF] from-gray-300 to-gray-300 hover:to-[#92FE9D]">
               About
             </Link>
           </li>
           <li>
             {" "}
-            <Link to="skills" smooth duration={500} offset={-100}>
+            <Link to="skills" smooth duration={500} offset={-100} className = "font-bold text-transparent  bg-clip-text bg-gradient-to-r hover:from-[#00C9FF] hover:to-[#92FE9D] from-gray-300 to-gray-300">
               Skills
             </Link>
           </li>
           <li>
             {" "}
-            <Link to="works" smooth duration={500} offset={-100}>
+            <Link to="works" smooth duration={500} offset={-100} className="font-bold text-transparent  bg-clip-text bg-gradient-to-r hover:from-[#00C9FF] hover:to-[#92FE9D] from-gray-300 to-gray-300">
               Works
             </Link>
           </li>
